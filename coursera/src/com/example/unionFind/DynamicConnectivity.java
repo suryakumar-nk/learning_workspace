@@ -1,9 +1,9 @@
-package unionFind;
+package com.example.unionFind;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Soo {
+public class DynamicConnectivity {
     public static void main(String[] args) {
         StdOut.print("Enter Number of items: ");
         int n = StdIn.readInt();

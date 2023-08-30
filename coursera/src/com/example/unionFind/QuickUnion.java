@@ -1,4 +1,4 @@
-package unionFind;
+package com.example.unionFind;
 
 import edu.princeton.cs.algs4.StdOut;
 
