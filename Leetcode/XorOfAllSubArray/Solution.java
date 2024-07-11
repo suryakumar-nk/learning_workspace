@@ -1,4 +1,4 @@
-package Leetcode.XorOfAllSubArray;
+package XorOfAllSubArray;
 
 public class Solution {
 
