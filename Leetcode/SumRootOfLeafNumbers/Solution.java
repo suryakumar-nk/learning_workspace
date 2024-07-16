@@ -1,17 +1,17 @@
-package Leetcode.SumRootOfLeafNumbers;
+package SumRootOfLeafNumbers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+public class Solution {
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+    public static class TreeNode {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
         TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
+        public TreeNode(int val) { this.val = val; }
+        public TreeNode(int val, TreeNode left, TreeNode right) {
             this.val = val;
             this.left = left;
             this.right = right;
@@ -51,7 +51,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        TreeNode nodes = sol.new TreeNode(0, sol.new TreeNode(1), null);
+        TreeNode nodes = new TreeNode(0, new TreeNode(1), null);
         System.out.println(sol.sumNumbers(nodes));
     }
 }
