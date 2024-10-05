@@ -1,5 +1,7 @@
 package NextPermutations;
 
+import java.util.ArrayList;
+
 class Solution {
     public void nextPermutation(int[] nums) {
         int n = nums.length;
@@ -34,5 +36,9 @@ class Solution {
         int[] arr = {2,1,5,4,3,0,0};
         var sol = new Solution();
         sol.nextPermutation(arr);
+        System.out.println(arr);
+        System.out.println((long) Math.sqrt(8));
+        var soo = new ArrayList<>().add(3);
+        System.out.println(soo);
     }
 }
