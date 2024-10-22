@@ -1,10 +1,7 @@
-package Leetcode.VerticalOrderTraversalOfBT;
+package VerticalOrderTraversalOfBT;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.PriorityQueue;
 
 class Solution {
@@ -66,7 +63,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7};
+        // int[] arr = {1,2,3,4,5,6,7};
         var treeNode = new TreeNode(1, 
                        new TreeNode(2, new TreeNode(4), new TreeNode(6)), 
                        new TreeNode(3, new TreeNode(5), new TreeNode(7)));
